@@ -13,17 +13,7 @@ Após a etapa de análise exploratória realizada anteriormente, o foco desta fa
 
 🎯 Objetivos do Projeto
 
-Preparar os dados para modelagem (tratamento, encoding e normalização)
-
-Realizar análise de correlação e seleção de variáveis
-
-Treinar modelos de classificação para prever churn
-
-Avaliar o desempenho dos modelos com métricas
-
-Interpretar os resultados e identificar variáveis mais relevantes
-
-Gerar insights estratégicos para retenção de clientes
+Explorar modelos de Machine Learning e desenvolver modelos capazes de prever quais clientes têm maior chance de cancelar seus serviços na empresa fictícia TelecomX com os dados previamente tratados.
 
 
 
@@ -43,6 +33,15 @@ Seaborn
 Scikit-learn
 
 Google Colab
+
+
+📂 Estrutura do Projeto
+
+README.md: Arquivo com descrição do projeto.
+
+TelecomX_parte2_BR.ipynb: Notebook contendo todas as células de execução do projeto e relatório final.
+
+dados_tratados.csv: Base de dados tratada na parte 1 do projeto.
 
 
 
@@ -91,35 +90,6 @@ Random Forest
 Os modelos foram avaliados utilizando métricas de desempenho para comparar sua capacidade de prever clientes com maior risco de evasão.
 
 
-
-
-📈 Principais Insights
-
-A análise identificou fatores relevantes associados ao churn:
-
-Clientes com menor tempo de permanência apresentam maior probabilidade de cancelamento
-
-Contratos mensais apresentam maior risco de evasão
-
-Clientes com maior tempo de relacionamento tendem a permanecer na empresa
-
-Serviços adicionais e suporte aumentam a retenção
-
-Esses resultados indicam que os primeiros meses de relacionamento com o cliente são críticos para fidelização.
-
-
-
-💡 Recomendações Estratégicas
-
-Com base nos resultados obtidos, algumas ações podem contribuir para reduzir o churn:
-
-Focar estratégias de retenção nos primeiros meses de contrato
-
-Incentivar contratos de longo prazo
-
-Monitorar clientes com maior risco de cancelamento
-
-Utilizar modelos preditivos para apoiar decisões estratégicas de retenção
 
 
 
